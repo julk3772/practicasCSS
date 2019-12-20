@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.padre{
+    background: #7216af;
+    width: 800px; 
+    /* Siempre pon un width */
+    margin: 20px auto;
+    /* Siempre pon un height */
+    height: 600px;
+
+    display: flex;    
+
+    /* align-content: flex-start | flex-end  | center | stretch |  space-between | space-around*/
+
+    /* flex-wrap: wrap; */
+
+    /* align-items: stretch | center | flex-end | flex-start ; */
+
+    /* justify-content: flex-start | flex-end | center | space-between | space-around |  space-evenly; */
+
+    /* flex-flow: flexdirection flexwrap:  */
+
+    /* flex-wrap: nowrap | wrap | wrap-reverse; */
+
+    /* flex-direction: row | row-reverse | column | column-reverse; */
+
+    /* flex-grow  sirve para crecer el elemento*/
+
+    /* flex-shrink sirve para encoger el elemento */
+
+    /* flex-basis: sirve para agregar el tamaño en el que este el eje principal */
+
+    /* flex: grow shrink basis */
+
+    /* align-self: stretch | center | flex-end | flex-start ; */
+}
+
+.hijo{
+    background: coral;
+    height: 100px;
+    font-size: 30px;
+    color:#fff;
+    width: 400px;
+}
+.uno{
+    order:-2;
+}
+.dos{
+    order:-1;
+}
+.tres{
+    order:-4;
+}
+
+
+
